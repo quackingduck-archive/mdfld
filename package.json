@@ -1,12 +1,16 @@
 {
-  "version": "0.0.1",
+  "version": "0.1.0",
   "name": "mdfld",
   "description": "Folds markdown documents by heading level",
   "repository": "https://github.com/quackingduck/mdfld",
   "engines": {
     "atom": ">=1.9.0 <2.0.0"
   },
-  "keywords": ["markdown", "fold", "folding"],
+  "keywords": [
+    "markdown",
+    "fold",
+    "folding"
+  ],
   "main": "./lib/main",
   "devDependencies": {
     "eslint": "^4.3.0",
@@ -21,9 +25,15 @@
     "prettier-eslint-cli": "^4.1.1"
   },
   "eslintConfig": {
-    "globals": { "atom": false },
-    "extends": ["standard"],
-    "plugins": ["prettier"],
+    "globals": {
+      "atom": false
+    },
+    "extends": [
+      "standard"
+    ],
+    "plugins": [
+      "prettier"
+    ],
     "rules": {
       "comma-dangle": [
         "error",
@@ -34,7 +44,10 @@
       ],
       "no-unused-vars": [
         "error",
-        { "argsIgnorePattern": "^_", "varsIgnorePattern": "^__" }
+        {
+          "argsIgnorePattern": "^_",
+          "varsIgnorePattern": "^__"
+        }
       ]
     }
   }
