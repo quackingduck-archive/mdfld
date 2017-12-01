@@ -6,5 +6,6 @@
   'cmd-k cmd-5': 'mdfld:fold-at-heading-level-5'
   'cmd-k cmd-6': 'mdfld:fold-at-heading-level-6'
   'cmd-k cmd-0': 'mdfld:unfold-all'
+  'cmd-alt-[': 'mdfld:fold-current-row'
   'cmd-alt-{': 'mdfld:fold-all'
   'cmd-alt-}': 'mdfld:unfold-all'
