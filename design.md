@@ -3,6 +3,8 @@
 
 - planned features
   - "focus" mode: hides everything (above and below) except the the current section, its heading, and parent headings
+  - fold-current-row folds the next level up when pressed twice
+  - remembering previous fold levels?
   - `***` style horizontal treated as fold boundaries and not foldable content
 
 - commands
