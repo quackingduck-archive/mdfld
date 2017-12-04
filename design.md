@@ -58,7 +58,3 @@
 - resources
   + https://github.com/atom/line-ending-selector/blob/master/lib/main.js
   - assuming this is "good style" for an atom package?
-  + https://github.com/JoseBlanca/markdown-folding
-  - updated version of the below package. does a kind of "cycle" folding that doesn't map to atom's default folding behavior
-  + https://github.com/tshort/markdown-folder
-  - original folding package. no longer works
