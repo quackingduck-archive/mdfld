@@ -4,7 +4,7 @@ Atom's built-in folding commands use line indentation level to deduce the struct
 
 This package reimplements the default editor fold commands, but uses heading levels instead of indentation levels.
 
-Currently implemented
+Commands:
 
 ```
 editor:fold-all                   mdfld:fold-all                  cmd-alt-{
@@ -18,7 +18,9 @@ editor:fold-at-indent-level-5     mdfld:fold-at-heading-level-5   cmd-k cmd-5
 editor:fold-at-indent-level-6     mdfld:fold-at-heading-level-6   cmd-k cmd-6
 ```
 
-![Demo](demo.gif)
+Demo:
+
+<img src="demo.gif" width=400>
 
 ## See also
 
