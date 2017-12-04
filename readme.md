@@ -1,5 +1,7 @@
 # mdfld
 
+![Demo](demo.gif)
+
 Atom's built-in folding commands use line indentation level to deduce the structure of the editor buffer. This works for most programming languages, but doesn't work for markdown documents.
 
 This package reimplements the default editor fold commands, but uses heading levels instead of indentation levels.
